@@ -1,0 +1,582 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Calibri;
+    background-color: #DBDFEA;
+    overflow-x: hidden;
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.sidebar {
+    display: none;
+}
+
+.wa {
+    position: fixed;
+    bottom: 65px;
+    margin-left: 50px;
+    z-index: 2;
+}
+
+.wa a {
+    font-size: 23px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(245, 137, 94);
+    color: beige;
+    position: sticky;
+    position: -webkit-sticky;
+    border-radius: 20px;
+}
+
+.wa a:hover {
+    background-color: #27374D;
+    color: #F1F6F9;
+}
+
+.inti {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+/* NAVIGASI BAR */
+.bar {
+    width: 1160px;
+    margin: auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    position: relative;
+}
+
+.logo {
+    margin-top: 12.5px;
+    float: left;
+}
+
+.logo-words {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    font-family: Arial;
+    color: #27374D;
+    margin-left: 0.4cm;
+}
+
+.menu {
+    float: right;
+    margin-right: -3cm;
+}
+
+nav {
+    display: flex;
+    background-color: #F1F6F9;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(26, 25, 25);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 31px 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    background: #394867;
+    margin-top: 100%;
+    color: #F1F6F9;
+}
+
+.current a {
+    color: #F1F6F9;
+    text-decoration: none;
+    background: #394867;
+}
+
+/*STYLE BERANDA*/
+.pvtentang {
+    margin-top: 1.7cm;
+}
+
+.pvtentang p {
+    margin-bottom: 1cm;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: right;
+}
+
+.pvtentang img {
+    height: 11.8cm;
+}
+
+.pvtentang .kolom {
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 11.8cm;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: #27375D;
+    width: 100%;
+    line-height: 50px;
+    padding-top: 10px;
+}
+
+.tbl1 {
+    background: #EEEEEE;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tbl1:hover {
+    background: #394867;
+    color: #F1F6F9;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Sen', sans-serif;
+    text-align: justify;
+}
+
+.pvgejala {
+    margin-top: 10px;
+}
+
+.pvgejala h1 {
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 45px;
+    margin-left: 20px;
+    padding-top: 10px;
+    color: #27374D;
+}
+
+.pvgejala p {
+    justify-content: right;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 1cm;
+}
+
+.pvgejala .kolom {
+    background-color: white;
+    height: 10cm;
+    margin-right: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.gmbr2 {
+    height: 10cm;
+}
+
+.tbl2 {
+    background: #EEEEEE;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tbl2:hover {
+    background: #394867;
+    color: #F1F6F9;
+    text-decoration: none;
+}
+
+.pvcegah {
+    margin-top: 10px;
+}
+
+.pvcegah .kolom {
+    background-color: white;
+    height: 9cm;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 10px;
+}
+
+.gmbr3 {
+    height: 9cm;
+}
+
+.pvcegah h1 {
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 20px;
+    color: #27374D;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.pvcegah p {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.tbl3 {
+    background: #EEEEEE;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tbl3:hover {
+    background: #394867;
+    color: #F1F6F9;
+    text-decoration: none;
+}
+
+.pvvaksin .kolom {
+    background-color: white;
+    height: 10cm;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 10px;
+}
+
+.gmbr4 {
+    height: 10cm;
+}
+
+.pvvaksin h1 {
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 20px;
+    color: #27374D;
+    text-align: left;
+}
+
+.pvvaksin p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.tbl4 {
+    background: #EEEEEE;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tbl4:hover {
+    background: #394867;
+    color: #F1F6F9;
+    text-decoration: none;
+}
+
+/* BAG. KONTAK */
+.footer {
+    background-color: #EEEEEE;
+    padding: 50px 0px;
+    height: 35vh;
+}
+
+.kontak {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.hotline h2 {
+    margin-top: 10px;
+}
+
+.hotline p a {
+    font-family: 'Sen', sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    color: #394867;
+}
+
+.hotline p a:hover {
+    background-color: #27374D;
+    color: beige;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.hotline p {
+    margin-top: 35px;
+}
+
+.cr {
+    margin-top: 30px;
+}
+
+.footer-kontak {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.footer-kontak p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer-kontak a {
+    padding: 0px 10px;
+}
+
+.pack-icon {
+    text-align: center;
+    padding: 10px;
+}
+
+.pvgejala ul li {
+    margin-left: 3cm;
+}
+
+.pvvaksin .kolom .coba {
+    justify-content: left;
+}
+
+
+/* New Page - Tentang */
+
+.np-tentang-inti {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    font-family: 'Sen', sans-serif;
+    text-align: center;
+}
+
+.np-tentang-inti .summary {
+    margin: 0 5vw;
+    margin-bottom: 5vh;
+}
+
+.np-tentang-inti h1 {
+    margin-left: 0px;
+}
+
+.np-tentang {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.np-tentang .img-pos img {
+    margin-top: 1.5cm;
+}
+
+.pvtentang ol {
+    text-align: justify;
+    margin: 0 5vw;
+}
+
+/* New Page - Data */
+
+.np-data-inti {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    font-family: 'Sen', sans-serif;
+    text-align: center;
+}
+
+.np-data-inti h1 {
+    margin-top: 10vh;
+    margin-left: 0px;
+}
+
+.np-data-inti p {
+    margin-left: 2cm;
+    margin-right: 2cm;
+    padding-bottom: 20px;
+}
+
+.np-data {
+    margin-top: 10vh;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.np-data .img-pos img {
+    margin-top: 1.5cm;
+    width: 25cm;
+    height: auto;
+}
+
+/* New Page - Gejala */
+
+.np-gejala-inti {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    font-family: 'Sen', sans-serif;
+    text-align: center;
+}
+
+.np-gejala-inti .summary p {
+    margin: 0 5vw;
+    margin-bottom: 5vh;
+}
+
+.np-gejala {
+    margin-top: 1.5cm;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.np-gejala .img-pos img {
+    margin-top: 1cm;
+}
+
+.np-gejala .summary ul {
+    text-align: justify;
+    margin-right: 7vw;
+    margin-bottom: 5vh;
+}
+
+/* New Page - Cegah */
+
+.np-cegah-inti {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    font-family: 'Sen', sans-serif;
+    text-align: center;
+}
+
+.np-cegah-inti .summary p {
+    margin: 0 5vw;
+    margin-bottom: 5vh;
+}
+
+.np-cegah-inti .summary .sources ul {
+    margin-right: -1cm;
+}
+
+.np-cegah {
+    margin-top: 1.5cm;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.np-cegah .img-pos img {
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+.np-cegah .img-pos h1 {
+    text-align: center;
+    margin-left: 0px;
+}
+
+.np-cegah .summary ul li {
+    text-align: justify;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+/* New Page - Vaksin */
+
+.np-vaksin-inti {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    font-family: 'Sen', sans-serif;
+    text-align: center;
+}
+
+.np-vaksin-inti .summary {
+    margin-bottom: 5vh;
+}
+
+.np-vaksin-inti .summary p {
+    margin: 0 5vw;
+    margin-bottom: 5vh;
+}
+
+.np-vaksin {
+    margin-top: 1.5cm;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.np-vaksin .img-pos img {
+    margin-top: 1cm;
+}
+
+.np-vaksin .img-pos h1 {
+    text-align: center;
+    margin-left: 0px;
+}
+
+.np-vaksin .summary ul li {
+    text-align: justify;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 2vh;
+}
+
+/* SOURCES */
+
+.sources ul {
+    list-style: none;
+    font-size: 13px;
+    float: right;
+    margin-right: 1cm;
+    margin-bottom: 1cm;
+    margin-top: 20px;
+}
+
+.sources ul li a:hover {
+    color: orchid;
+}

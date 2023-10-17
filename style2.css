@@ -1,0 +1,674 @@
+@media screen and (max-width: 1280px) {
+    nav {
+        width: 100%;
+        z-index: 2;
+        padding: 0;
+        margin-right: 0;
+    }
+
+    .bar {
+        margin-right: 0;
+    }
+
+    body {
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+    }
+
+    .inti {
+        margin-right: 2vw;
+        margin-left: 14vw;
+    }
+
+    .logo {
+        margin-left: 35px;
+    }
+
+    .logo-words {
+        font-size: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .wa a {
+        font-size: 20px;
+    }
+
+    .navbar {
+        right: -55px;
+        top: 25px;
+        width: 20%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        z-index: 9999;
+        display: flex;
+    }
+
+    .navbar .toggler-navbar {
+        margin-right: 15px;
+    }
+
+    .sidebar {
+        display: block;
+        position: fixed;
+        top: 80px;
+        right: 0px;
+        width: 300px;
+        height: 100%;
+        background: #F1F6F9;
+        text-align: right;
+        font-size: 20PX;
+        transform: rotate3d(0, 1, 0, 90deg);
+        transform-origin: right center;
+        transition: .5s;
+    }
+
+    .sidebar.open {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+
+    .sidebar ul {
+        list-style: none;
+        display: block;
+        
+    }
+
+    .sidebar  ul li a {
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 30px;
+        padding-right: 300px;
+        text-align: center;
+    }
+
+    .sidebar li:hover,
+    .sidebar li.active {
+        background: #394867;
+    }
+
+    .active a {
+        color: #F1F6F9;
+    }
+
+    .hamburger-menu {
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .hamburger-menu span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background: #394867;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+
+    }
+
+    .hamburger-menu span:nth-child(1) {
+        top: 2.5px;
+    }
+
+    .hamburger-menu span:nth-child(2) {
+        top: 11px;
+    }
+
+    .hamburger-menu span:nth-child(3) {
+        top: 21px;
+    }
+
+    .hamburger-menu.open span:nth-child(1) {
+        top: 15px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
+
+    .hamburger-menu.open span:nth-child(2) {
+        opacity: 0;
+        left: 60px;
+    }
+
+    .hamburger-menu.open span:nth-child(3) {
+        top: 14px;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+    }
+
+    nav ul li a {
+        font-size: 10px;
+        font-style: bold;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .inti img {
+        width: 85%;
+        height: auto;
+    }
+
+    .inti .kolom {
+        width: 85%;
+    }
+
+    .pvtentang .kolom {
+        margin-left: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        height: 12cm;
+    }
+
+    .pvgejala .kolom {
+        margin-right: 0px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        height: 8.5cm;
+    }
+
+    .pvcegah .kolom {
+        margin-left: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        height: 11cm;
+    }
+
+    .pvvaksin .kolom {
+        margin-right: 0px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        height: 9cm;
+    }
+
+    .np-tentang {
+        padding-bottom: 1cm;
+    }
+
+    .np-tentang img {
+        height: 14cm;
+    }
+
+    .np-data {
+        padding-bottom: 2cm;
+    }
+
+    .np-data .img-pos img {
+        width: 100%;
+        height: auto;
+    }
+
+    .np-data-inti h1 {
+        font-size: 30px;
+    }
+
+    .np-gejala {
+        padding-bottom: 2cm;
+    }
+
+    .np-gejala img {
+        height: 15cm;
+    }
+
+    .np-cegah {
+        padding-bottom: 2cm;
+    }
+
+    .np-cegah img {
+        height: 10cm;
+    }
+
+    .np-vaksin {
+        padding-bottom: 2cm;
+    }
+
+    .np-vaksin img {
+        height: 11cm;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    nav {
+        width: 100%;
+        padding: 0px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .bar {
+        margin-right: 0;
+        margin-left: 0;
+        position: sticky;
+    }
+
+    .inti {
+        margin-left: 13vw;
+        margin-right: 2vw;
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+    }
+
+    .logo img {
+        margin-left: 0px;
+    }
+
+    .logo-words {
+        font-size: 14px;
+        margin-left: 7px;
+        margin-right: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .wa {
+        margin-left: 25px;
+        bottom: 150px;
+    }
+
+    .wa a {
+        font-size: 17px;
+    }
+
+    .navbar {
+        right: -65px;
+        top: 25px;
+        width: 20%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        z-index: 9999;
+        display: flex;
+    }
+
+    .navbar .toggler-navbar {
+        margin-right: 15px;
+    }
+
+    .sidebar {
+        display: block;
+        position: fixed;
+        top: 80px;
+        right: 0px;
+        width: 300px;
+        height: 100%;
+        background: #F1F6F9;
+        text-align: right;
+        font-size: 20PX;
+        transform: rotate3d(0, 1, 0, 90deg);
+        transform-origin: right center;
+        transition: .5s;
+    }
+
+    .sidebar.open {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+
+    .sidebar ul {
+        list-style: none;
+        display: block;
+        text-align: center;
+        
+    }
+
+    .sidebar  ul li a {
+        display: block;
+        font-size: 10px;
+        font-weight: bold;
+        padding-left: 30px;
+        padding-right: 300px;
+        margin-top: -20px;
+        margin-bottom: -20px;
+        cursor: pointer;
+    }
+
+    .sidebar li:hover,
+    .sidebar li.active {
+        background: #394867;
+    }
+
+    .sidebar li a:hover {
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+
+    .active a {
+        color: #F1F6F9;
+    }
+
+    .hamburger-menu {
+        display: block;
+        right: 45px;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .hamburger-menu span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background: #394867;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+
+    }
+
+    .hamburger-menu span:nth-child(1) {
+        top: 2.5px;
+    }
+
+    .hamburger-menu span:nth-child(2) {
+        top: 11px;
+    }
+
+    .hamburger-menu span:nth-child(3) {
+        top: 21px;
+    }
+
+    .hamburger-menu.open span:nth-child(1) {
+        top: 15px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
+
+    .hamburger-menu.open span:nth-child(2) {
+        opacity: 0;
+        left: 60px;
+    }
+
+    .hamburger-menu.open span:nth-child(3) {
+        top: 14px;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+    }
+
+    nav ul li a {
+        display: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .pvtentang .kolom {
+        margin-left: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        height: 16cm;
+    }
+
+    .pvtentang img {
+        margin-top: -20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .pvgejala .kolom {
+        margin-right: 0px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        height: 11cm;
+    }
+
+    .pvgejala h1 {
+        font-size: 26px;
+    }
+
+    .gmbr2 {
+        height: 8cm;
+    }
+
+    .pvcegah .kolom {
+        margin-left: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        height: 14cm;
+    }
+
+    .pvcegah h1 {
+        font-size: 26px;
+    }
+
+    .gmbr3 {
+        height: 5cm;
+    }
+
+    .pvvaksin h1 {
+        font-size: 27px;
+    }
+
+    .pvvaksin .kolom {
+        margin-right: 0px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        height: 14cm;
+    }
+
+    .tbl4 {
+        margin-top: 7px;
+    }
+
+    .gmbr4 {
+        height: 5cm;
+    }
+
+    .np-tentang {
+        padding-bottom: 1cm;
+    }
+
+    .np-tentang-inti .summary {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .np-tentang .img-pos img {
+        width: 100%;
+        height: auto;
+    }
+
+    .np-data .img-pos img {
+        width: 100%;
+        height: auto;
+    }
+
+    .np-data-inti h1 {
+        font-size: 20px;
+    }
+
+    .np-gejala {
+        padding-bottom: 2cm;
+    }
+
+    .np-gejala .img-pos img {
+        width: 100%;
+        height: auto;
+    }
+
+    .np-gejala-inti h1 {
+        margin-left: 0px;
+    }
+
+    .np-gejala-inti ul li {
+        margin-left: 40px;
+    }
+
+    .np-cegah {
+        padding-bottom: 2cm;
+        padding-right: 20px;
+    }
+
+    .np-cegah-inti .img-pos img {
+        margin-bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .np-cegah .gmbr3 {
+        margin-bottom: 5px;
+    }
+
+    .np-vaksin {
+        padding-bottom: 2cm;
+    }
+
+    .np-vaksin .img-pos img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        margin-left: -10px;
+    }
+}
+
+/* mobile M */
+@media screen and (max-width: 375px) {
+    .navbar {
+        margin-right: 20px;
+    }
+
+    .logo-words {
+        display: none;
+    }
+
+    .inti .pvtentang .kolom {
+        height: 16cm;
+    }
+
+    .inti .pvgejala .kolom {
+        height: 12cm;
+    }
+
+    .inti .pvvaksin .kolom {
+        height: 14cm;
+    }
+}
+
+/* mobile S */
+@media screen and (max-width: 280px) {
+    body p {
+        font-size: 13px;
+    }
+
+    body ol li {
+        font-size: 13px;
+    }
+
+    body ul li {
+        font-size: 13px;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .logo-words {
+        display: none;
+    }
+
+    .inti p {
+        font-size: 13px;
+    }
+
+    .pvtentang h1 {
+        font-size: 20px;
+    }
+
+    .inti .pvtentang .kolom {
+        height: 16cm;
+    }
+
+    .inti .pvgejala .kolom {
+        height: 11cm;
+    }
+
+    .pvcegah h1 {
+        font-size: 20px;
+    }
+
+    .inti .pvcegah .kolom {
+        height: 14cm;
+    }
+
+    .inti .pvvaksin .kolom {
+        height: 13cm;
+    }
+
+    .sidebar ul li a {
+        margin-left: 20px;
+    }
+}
